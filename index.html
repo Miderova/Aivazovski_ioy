@@ -19,7 +19,7 @@
             <nav class="nav" aria-label="header navigation">
                 <ul class="nav-list" aria-label="header navigation list">
                     <li>
-                        <a href="#HomeId" class="nav-link" aria-label="link to home"  >Home</a>
+                        <a href="#HomeId" class="nav-link" aria-label="link to home">Home</a>
                     </li>
                     <li>
                         <a href="#aboutID" class="nav-link" aria-label="link to About">About</a>
@@ -38,9 +38,43 @@
         </div>
     </header>
 
+    <div class="mobile-navigation" aria-label="mobile-navigation">
+        <label for="togglerId">
+            <svg class="mobile-navigation-burger" aria-label="burger">
+                <use href="assets/sprites.svg#burger"></use>
+            </svg>
+        </label>
+
+        <input type="checkbox" id="togglerId" class="mobile-navigation-toggler">
+
+        <nav class="mobile-navigation-menu" aria-label="header navigation">
+            <ul class="mobile-navigation-list" aria-label="mob">
+                <li>
+                    <a href="#HomeId" class="mobile-navigation-link" aria-label="link to home">Home</a>
+                </li>
+                <li>
+                    <a href="#aboutID" class="mobile-navigation-link" aria-label="link to About">About</a>
+                </li>
+                <li>
+                    <a href="#histoyId" class="mobile-navigation-link" aria-label="link to History">History</a>
+                </li>
+                <li>
+                    <a href="#portfolioId" class="mobile-navigation-link" aria-label="link to Portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contactsId" class="mobile-navigation-link" aria-label="link to Contacts">Contacts</a>
+                </li>
+            </ul>
+            <label for="togglerId" class="mobile-navigation-close">
+                <svg class="mobile-navigation-cross" aria-label="cross">
+                    <use href="assets/sprites.svg#cross"></use>
+                </svg>
+            </label>
+        </nav>
+    </div>
 
     <main aria-label="main">
-        <section class="home" aria-label="home sectyion" id="HomeId">
+        <section class="home" aria-label="home section" id="HomeId">
             <div class="container">
                 <h1 class="home-title" aria-label="title">Ivan Constantinovich Aivazovski</h1>
                 <p class="home-description" aria-label="description">Russian marine painter of Armenian origin,
@@ -90,7 +124,8 @@
                 <p class="portfolio-description" aria-label="picture1">Радуга, 1873 г. | Rainbow, 1873</p>
 
                 <img src="assets/webp/port.webp" alt="port" class="portfolio-picture">
-                <p class="portfolio-description" aria-label="picture1">Неаполитанский залив утром, 1893 г. | Gulf of Naples in the morning, 1893</p>
+                <p class="portfolio-description" aria-label="picture1">Неаполитанский залив утром, 1893 г. | Gulf of
+                    Naples in the morning, 1893</p>
             </div>
         </section>
     </main>
@@ -100,28 +135,29 @@
         <div class="container">
             <h2 class="contacts-title">Contacts</h2>
             <button class="contacts-button">
-                <a href="https://artsandculture.google.com/usergallery/wwLiYZV6VRRXJQ" class="button" target="_blank">ayvazovskiy.su</a>
+                <a href="https://artsandculture.google.com/usergallery/wwLiYZV6VRRXJQ" class="button"
+                    target="_blank">ayvazovskiy.su</a>
             </button>
             <address class="socials" aria-label="social icons">
-                <a href="https://www.youtube.com/" target="_blank"aria-label="youtube">
+                <a href="https://www.youtube.com/" target="_blank" aria-label="youtube">
                     <svg class="social-icon" aria-label="youtube icon">
                         <use href="assets/sprites.svg#YouTubeIcon"></use>
                     </svg>
                 </a>
 
-                <a href="#" target="_blank"aria-label="LinkedinIcon">
+                <a href="#" target="_blank" aria-label="LinkedinIcon">
                     <svg class="social-icon" aria-label="LinkedinIcon">
                         <use href="assets/sprites.svg#LinkedinIcon"></use>
                     </svg>
                 </a>
 
-                <a href="#" target="_blank"aria-label="InstagramIcon">
+                <a href="#" target="_blank" aria-label="InstagramIcon">
                     <svg class="social-icon" aria-label="InstagramIcon">
                         <use href="assets/sprites.svg#InstagramIcon"></use>
                     </svg>
                 </a>
 
-                <a href="#" target="_blank"aria-label="FacebookIcon">
+                <a href="#" target="_blank" aria-label="FacebookIcon">
                     <svg class="social-icon" aria-label="FacebookIcon">
                         <use href="assets/sprites.svg#FacebookIcon"></use>
                     </svg>
