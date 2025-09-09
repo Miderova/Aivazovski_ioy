@@ -26,3 +26,13 @@ h1,p{
     max-width: 970px;
     padding: 0 10px;
 }
+/* это полоска hr */
+.divider {
+    max-width: 420px;
+    width: 100%;
+    /* крч, тут мы выставляем ширину в 420пикселей, но надо прописывать 100% чтобы ширина стремилась всегда к 100 но не была больше 420 */
+    height: 1px;
+    background-color: var(--color-black);
+    border: none;
+    margin: 0 auto;
+}
